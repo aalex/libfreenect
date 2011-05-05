@@ -116,6 +116,21 @@ If you want to see the glview example:
 udev rules are available in the platform/linux directory so that you
 are not required to run as root.
 
+Here is a little build script for Ubuntu Lucid LTS: 
+
+    sudo apt-get install libusb-1.0-0-dev
+    sudo apt-get install freeglut3-dev
+    sudo apt-get install libxmu-dev
+    sudo apt-get install libxi-dev
+    mkdir build
+    cd build
+    cmake ..
+    make
+
+And then you can install it by running this:
+
+    sudo make install
+
 ==== Windows
 
 Windows support is now available in libfreenect. The inf files in the
