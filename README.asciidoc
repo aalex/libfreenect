@@ -105,7 +105,7 @@ do it for requirements.
 
 Should "just work" if you have the following packages installed:
 
-- libusb-1.0-dev
+- libusb-1.0-dev (libusb-1.0-0-dev on Ubuntu LTS Lucid)
 
 If you want to see the glview example:
 
